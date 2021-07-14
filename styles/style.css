@@ -1,0 +1,37 @@
+/**************** 
+utilities style
+****************/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*********************
+players section styles
+**********************/
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+  width: 1050px;
+  margin: 70px auto;
+}
+.player {
+  padding: 15px;
+  width: 330;
+  height: 474px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img {
+  width: 300px;
+}
+.player-name {
+  font-weight: bold;
+  font-size: 28px;
+}
+.player-detail p {
+  font-size: 16px;
+  color: #6c6c6c;
+}
