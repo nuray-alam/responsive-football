@@ -186,7 +186,9 @@ media queries
     width: 330px;
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
   }
+
   footer {
     width: 236px;
   }
