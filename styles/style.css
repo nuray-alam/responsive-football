@@ -5,6 +5,43 @@ utilities style
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/********************
+header section styles
+*********************/
+header {
+  background-color: #2d25a0;
+}
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 49px 140px 86px 156px;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+  margin-bottom: 27px;
+}
+.button-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 168px;
+  height: 44px;
+  background-color: #e02c6d;
+}
+.button-link a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+.banner img {
+  width: 556px;
 }
 
 /*********************
