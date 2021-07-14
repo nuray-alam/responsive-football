@@ -8,6 +8,11 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.section-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px;
+}
 
 /********************
 header section styles
@@ -81,6 +86,36 @@ players section styles
   color: #6c6c6c;
 }
 
+/*********************
+newses section styles
+*********************/
+.news-section {
+  width: 1050px;
+  margin: auto;
+}
+.newses {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  width: 1050px;
+  margin: 70px auto;
+}
+.news {
+  align-items: center;
+  display: flex;
+  padding: 0px 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.news img {
+  width: 200px;
+}
+.news-detail {
+  padding-left: 10px;
+}
+.news-title {
+  font-size: 16px;
+}
 /**********************
 Footer section styles
 ***********************/
