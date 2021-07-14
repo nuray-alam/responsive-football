@@ -222,14 +222,14 @@ for mobile media queries
     margin: auto;
   }
   .news-section {
-    width: 330px;
+    width: 300px;
   }
   .newses {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
   }
   .news {
-    width: 330px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     padding-top: 15px;
@@ -238,7 +238,7 @@ for mobile media queries
     text-align: center;
   }
   .schedule-section {
-    width: 330px;
+    width: 300px;
   }
   .schedules {
     grid-template-columns: repeat(1, 1fr);
