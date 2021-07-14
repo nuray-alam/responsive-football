@@ -20,6 +20,14 @@ header {
   grid-template-columns: repeat(2, 1fr);
   padding: 49px 140px 86px 156px;
 }
+.banner-title-div,
+.banner-image-div {
+  transition: transform 0.5s ease-out;
+}
+.banner-title-div:hover,
+.banner-image-div:hover {
+  transform: scale(1.2);
+}
 .banner-title {
   font-weight: bold;
   font-size: 64px;
