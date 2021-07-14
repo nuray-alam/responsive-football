@@ -69,13 +69,16 @@ players section styles
   margin: 70px auto;
 }
 .player {
-  padding: 15px;
+  padding: 15px 15px;
   width: 330px;
   height: 474px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
+.player-image {
+  text-align: center;
+}
 .player img {
-  width: 300px;
+  width: 330px;
 }
 .player-name {
   font-weight: bold;
@@ -273,7 +276,7 @@ for tablets media queries
   .banner img {
     width: 329px;
   }
- 
+
   .players {
     grid-template-columns: repeat(2, 1fr);
 
