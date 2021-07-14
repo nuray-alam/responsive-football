@@ -178,15 +178,23 @@ media queries
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .news-section {
+    width: 330px;
   }
   .newses {
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
   .news {
     width: 330px;
     display: flex;
     flex-direction: column;
     padding-top: 15px;
+  }
+  .news-detail {
+    text-align: center;
   }
 
   footer {
