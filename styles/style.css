@@ -70,7 +70,7 @@ players section styles
 }
 .player {
   padding: 15px 15px;
-  width: 330px;
+  width: 300px;
   height: 474px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
@@ -78,7 +78,7 @@ players section styles
   text-align: center;
 }
 .player img {
-  width: 330px;
+  width: 300px;
 }
 .player-name {
   font-weight: bold;
