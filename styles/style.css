@@ -258,7 +258,6 @@ for tablets media queries
     align-items: center;
     padding: 0px;
   }
-  /* eikhan theke */
   .banner-title-div {
     padding-left: 15px;
     padding-bottom: 50px;
@@ -274,7 +273,7 @@ for tablets media queries
   .banner img {
     width: 329px;
   }
-  /* ai porjonto */
+ 
   .players {
     grid-template-columns: repeat(2, 1fr);
 
