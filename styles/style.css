@@ -72,3 +72,37 @@ players section styles
   font-size: 16px;
   color: #6c6c6c;
 }
+
+/**********************
+Footer section styles
+***********************/
+
+footer {
+  margin: auto;
+  width: 483.87px;
+  height: 110px;
+  text-align: center;
+}
+footer p {
+  font-size: 18px;
+}
+footer img {
+  width: 100%;
+}
+.social-icons {
+  margin: auto;
+  width: 170px;
+  height: 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.social-icon {
+  height: 32px;
+  width: 32px;
+  background-color: #e7e7e8;
+  color: #969bab;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
